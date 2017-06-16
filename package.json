@@ -1,6 +1,6 @@
 {
   "name": "dogesay",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Say it with doge",
   "main": "index.js",
   "bin": {
@@ -21,9 +21,9 @@
   "author": "Kevin Lanni <therealklanni@gmail.com> (https://github.com/therealklanni)",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^3.19.0",
     "eslint-config-prettier": "^2.1.1",
     "eslint-plugin-prettier": "^2.1.1",
-    "eslint": "^3.19.0",
     "husky": "^0.13.3",
     "lint-staged": "^3.4.2",
     "prettier": "^1.3.1"
