@@ -4,16 +4,14 @@
   "description": "Say it with doge",
   "main": "index.js",
   "bin": {
-    "dogesay": "./bin/index.js"
+    "dogesay": "index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/therealklanni/dogesay.git"
   },
   "scripts": {
-    "build": "echo '#!/usr/bin/env node' > ./bin/index.js && babel index.js >> ./bin/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "babel index.js --watch index.js --out-dir bin"
+    "test": "echo 'wow\\nsuch pass\\n\\n\\namaze' | node index.js"
   },
   "keywords": [
     "doge",
@@ -23,7 +21,12 @@
   "author": "Kevin Lanni <therealklanni@gmail.com> (https://github.com/therealklanni)",
   "license": "MIT",
   "devDependencies": {
-    "babel": "^6.3.26"
+    "eslint-config-prettier": "^2.1.1",
+    "eslint-plugin-prettier": "^2.1.1",
+    "eslint": "^3.19.0",
+    "husky": "^0.13.3",
+    "lint-staged": "^3.4.2",
+    "prettier": "^1.3.1"
   },
   "dependencies": {
     "chalk": "^1.1.0",
