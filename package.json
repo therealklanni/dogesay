@@ -1,6 +1,6 @@
 {
   "name": "dogesay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Say it with doge",
   "main": "index.js",
   "bin": {
